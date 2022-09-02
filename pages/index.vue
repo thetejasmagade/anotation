@@ -2,7 +2,7 @@
   <div>
     <Default />
     <v-main>
-      <Navbar v-if="!$device.isMobile"/>
+      <Navbar v-if="$device.isMobile==false"/>
       {{$device.isMobile}}
       Java, vuesdvsvsvd
     </v-main>
