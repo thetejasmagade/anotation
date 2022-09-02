@@ -716,8 +716,8 @@ export default {
             "
           >
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="
                   flex
                   items-center
@@ -751,11 +751,11 @@ export default {
                   <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
                 </svg>
                 <span class="ml-3">Dashboard</span>
-              </a>
+              </NuxtLink>
             </li>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="
                   flex
                   items-center
@@ -807,11 +807,11 @@ export default {
                   "
                   >Pro</span
                 >
-              </a>
+              </NuxtLink>
             </li>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="
                   flex
                   items-center
@@ -868,11 +868,11 @@ export default {
                   "
                   >3</span
                 >
-              </a>
+              </NuxtLink>
             </li>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="
                   flex
                   items-center
@@ -910,11 +910,11 @@ export default {
                   ></path>
                 </svg>
                 <span class="flex-1 ml-3 whitespace-nowrap">Users</span>
-              </a>
+              </NuxtLink>
             </li>
             <li>
-              <a
-                href="#"
+              <Nuxtlink
+                to="#"
                 class="
                   flex
                   items-center
@@ -952,11 +952,11 @@ export default {
                   ></path>
                 </svg>
                 <span class="flex-1 ml-3 whitespace-nowrap">Products</span>
-              </a>
+              </Nuxtlink>
             </li>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="
                   flex
                   items-center
@@ -994,11 +994,11 @@ export default {
                   ></path>
                 </svg>
                 <span class="flex-1 ml-3 whitespace-nowrap">Sign In</span>
-              </a>
+              </NuxtLink>
             </li>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="
                   flex
                   items-center
@@ -1036,7 +1036,7 @@ export default {
                   ></path>
                 </svg>
                 <span class="flex-1 ml-3 whitespace-nowrap">Sign Up</span>
-              </a>
+              </NuxtLink>
             </li>
           </ul>
           <ul
@@ -1049,8 +1049,8 @@ export default {
             "
           >
             <li>
-              <a
-                href="#"
+              <Nuxtlink
+                to="#"
                 class="
                   flex
                   items-center
@@ -1091,11 +1091,11 @@ export default {
                   ></path>
                 </svg>
                 <span class="ml-4">Upgrade to Pro</span>
-              </a>
+              </Nuxtlink>
             </li>
             <li>
-              <a
-                href="#"
+              <Nuxtlink
+                to="#"
                 class="
                   flex
                   items-center
@@ -1136,11 +1136,11 @@ export default {
                   ></path>
                 </svg>
                 <span class="ml-3">Documentation</span>
-              </a>
+              </Nuxtlink>
             </li>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="
                   flex
                   items-center
@@ -1178,11 +1178,11 @@ export default {
                   ></path>
                 </svg>
                 <span class="ml-3">Components</span>
-              </a>
+              </NuxtLink>
             </li>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="#"
                 class="
                   flex
                   items-center
@@ -1222,7 +1222,7 @@ export default {
                   ></path>
                 </svg>
                 <span class="ml-3">Help</span>
-              </a>
+              </NuxtLink>
             </li>
           </ul>
         </div>
