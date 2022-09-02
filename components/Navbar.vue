@@ -1,6 +1,6 @@
 <template>
-    <nav>
-      <NuxtLink to="/" class="flex items-center pl-2.5 mb-2 pt-2" v-if="!$device.isMobile">
+    <nav v-if="!$device.isMobile">
+      <NuxtLink to="/" class="flex items-center pl-2.5 mb-2 pt-2" >
         <svg width="32" height="32" viewBox="0 0 24 24">
           <g
             fill="none"
